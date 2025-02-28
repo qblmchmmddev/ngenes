@@ -1,0 +1,20 @@
+.{
+    .name = "ngenes",
+    .version = "0.0.0",
+
+    .dependencies = .{
+        .sokol = .{
+            .url = "git+https://github.com/floooh/sokol-zig.git#18ade9c0904b6a6db27e5f04914d4078b03b9d2d",
+            .hash = "122057f5e1a4a660248e402a39f785305d27fc86892a4d36f7fcf512cd58e847d925",
+        },
+        .cimgui = .{
+            .url = "git+https://github.com/floooh/dcimgui.git#bb46ed120a0db5bcf4dee4c804466986c8f48ed9",
+            .hash = "122052771be0e72e98ceb59ad6c4c476f105171ac3e22dd28d8c3dd8a4590a333b92",
+        },
+    },
+    .paths = .{
+        "build.zig",
+        "build.zig.zon",
+        "src",
+    },
+}
